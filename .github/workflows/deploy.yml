@@ -1,0 +1,12 @@
+name: Deploy App
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  call-deploy:
+    uses: softscriptdev/actions/.github/workflows/deploy.yml@main
+    with:
+          base-path: "/intro-component-with-signup-form-master/"
