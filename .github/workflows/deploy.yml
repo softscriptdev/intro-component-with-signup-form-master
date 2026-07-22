@@ -7,6 +7,6 @@ on:
 
 jobs:
   call-deploy:
-    uses: softscriptdev/actions/.github/workflows/deploy.yml@main
+    uses: softscriptdev/GitHub-Actions-to-deploy-vite/.github/workflows/deploy.yml@main
     with:
       base-path: "/intro-component-with-signup-form-master/"
