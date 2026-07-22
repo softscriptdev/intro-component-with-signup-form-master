@@ -9,4 +9,4 @@ jobs:
   call-deploy:
     uses: softscriptdev/actions/.github/workflows/deploy.yml@main
     with:
-          base-path: "/intro-component-with-signup-form-master/"
+      base-path: "/intro-component-with-signup-form-master/"
